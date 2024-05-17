@@ -3,7 +3,7 @@ import axios from "axios";
 
 import * as actionTypes from '../constants/productConstant.js'
 
-const URL = 'http://localhost:5000';
+const URL = 'https://ecommerce-backend-zmx0.onrender.com';
 
 export const getProducts = () => async (dispatch) => {
     try {
